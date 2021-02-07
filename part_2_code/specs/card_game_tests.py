@@ -12,4 +12,8 @@ class TestCardGame(unittest.TestCase):
     def test_check_for_ace(self):
         self.assertEqual(False, self.card_game.check_for_ace(self.card1))
 
+    def test_highest_card(self):
+        self.assertEqual(self.card2, self.card_game.highest_card(self.card1, self.card2))
+
+
         

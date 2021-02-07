@@ -26,7 +26,8 @@ class CardGame:
    
 #dif should be def
 #There should be a comma between card1 and card2
-#There is no option for if the cards are equal. You could write an elif statement; elif card1.value < card2.value: return card2 else: return None
+#Everything should be indented by a space
+
   dif highest_card(self, card1 card2):
   if card1.value > card2.value:
     return card
