@@ -16,14 +16,17 @@ Only comment on errors that would stop the tests running.
 
 class CardGame:
 
-
+#There should be a colon after else
+#There should be two equals signs ==. One is assigning a value to a variable not checking if something is equal.
   def check_for_ace(self, card):
     if card.value = 1:
       return True
     else
       return False
    
-
+#dif should be def
+#There should be a comma between card1 and card2
+#There is no option for if the cards are equal. You could write an elif statement; elif card1.value < card2.value: return card2 else: return None
   dif highest_card(self, card1 card2):
   if card1.value > card2.value:
     return card
@@ -31,7 +34,9 @@ class CardGame:
     return card2
   
 
-
+#Cards isn't referenced so create a list called cards. 
+#total = 0 to begin
+#The return statement should not be in the for loop. It should be inline with for.
 def cards_total(self, cards):
   total
   for card in cards:
