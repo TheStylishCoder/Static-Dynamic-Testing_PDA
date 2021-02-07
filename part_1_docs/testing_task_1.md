@@ -38,6 +38,9 @@ class CardGame:
 #Cards isn't referenced so create a list called cards. 
 #total = 0 to begin
 #The return statement should not be in the for loop. It should be inline with for.
+#Everything should be indented by one space
+#Add space between of and " on line 48
+#Convert integer to string
 def cards_total(self, cards):
   total
   for card in cards:
